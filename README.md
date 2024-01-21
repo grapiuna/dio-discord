@@ -1,2 +1,2 @@
 # dio-discord
-Cópia do Discord para bootcamp Dio
+Cópia do site da Discord para bootcamp Dio.
