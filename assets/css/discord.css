@@ -1,0 +1,208 @@
+/*
+https://www.figma.com/file/NRBYrG5d4DSzObv7dpTqoM/Desafio-Responsividade---DIO?type=design&node-id=0-1&mode=design&t=zwfQx1fwG62RYXCb-0
+
+
+Adaptar para computador
+
+*/
+
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+
+body{
+    font-family: OpenSans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 20px;
+}
+
+header{
+    height: 450px;
+    background-image: url(/assets/images/d-HeaderBg.png);
+    background-size: cover;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.titulo{
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 32px;
+    text-align: left;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+header p {
+    color: #FFF;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+button{
+    height: 52px;
+    border-radius: 28px;
+    display: block;
+    margin-bottom: 10px;
+    width: 381px;
+}
+.navegador{
+    background-color: #23272A;
+    color: #FFF;
+}
+
+h1{
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: left;
+    width: 370px;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 380px;
+}
+
+.area .titulo{
+    color: #23272A;
+}
+
+img{
+    width: 100%;
+}
+
+.area{
+    height: 500px;
+    padding: 20px;
+}
+
+footer{
+    height: 150px;
+    background-color: #23272A;
+}
+
+footer img{
+    width: 162px;
+    padding: 44px 133px 44px 133px;
+}
+
+@media screen and (min-width: 720px) {
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+}  
+
+header .titulo{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 56px;
+    text-align: center;
+}
+
+header p{
+    width: 757px;
+    padding: 0;
+}
+
+header button{    
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+header button{
+    margin-right: 30px;
+}
+
+.botao{
+    display: flex;
+}
+
+.windows{
+    width: 200px;
+}
+.navegador{
+    width: 280px;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 55px;
+    width: 329px;
+}
+
+.area{
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    max-width: 1200px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+
+#esquerda{
+    flex-direction: row-reverse;
+}
+
+#meio{
+    flex-direction: column-reverse;
+}
+
+#meio .text{
+    justify-content: center;
+    align-items: center;
+}
+
+#meio img{
+    height: 1000px;
+}
+
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+}
